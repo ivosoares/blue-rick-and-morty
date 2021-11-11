@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick and Morty Characters</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- cabecalho com a imagem -->
+  <header>
+    <img src="https://occ-0-1068-1723.1.nflxso.net/dnm/api/v6/TsSRXvDuraoJ7apdkH6tsHhf-ZQ/AAAABbtnw6C35mhluezr-K_FiP65TW93xpH0M3S6lKPv50_7eshzc1vosWxE3CxcnJ5-eVYmpcaQyra9yFLzQtsNx4odwYO-GtDDmDU0.png" class="logo" alt="Logo Rick and Morty"/>
+  </header>
+  <main class="container">
+    <!-- formulario de busca -->
+    <form class="form" onsubmit="searchCharacters(event)">
+      <input type="text" name="buscar" id="input" placeholder="Digite o nome do Personagem"/>
+      <button type="submit">Buscar</button>
+    </form>
+    <!-- minha lista de personagens -->
+    <section class="list" id="list">
+    </section>
+    <div class="buttons">
+      <button id="prev" onclick="prevPage()">prev</button>
+      <button id="next" onclick="nextPage()">next</button>
+    </div>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>

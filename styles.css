@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background-color: #04b4c6;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header .logo {
+  width: 30%;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*  formulario de busca */
+.form {
+  display: flex;
+  margin: 2rem;
+}
+
+.form input {
+  padding: 1rem;
+  outline: none;
+  font-size: 1.2rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.form button {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #27ae60;
+  color: white;
+  margin-left: 10px;
+  padding: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+
+
+/* botoes paginacao */
+.buttons {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+.buttons button {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* cards de personagens */
+
+.list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 23%;
+  margin: 0.5rem;
+  background-color: #FFF;
+  color: #000;
+}
+
+.card-header {
+  padding: 1rem;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-header .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.card-img img {
+  width: 100%;
+  height: auto;
+}
+.card-body {
+  padding: 1rem;
+  min-height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.card-body p {
+  font-size: 1.2rem;
+}
+
+
